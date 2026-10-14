@@ -1,0 +1,24 @@
+{
+  "timezone": "America/Los_Angeles",
+  "contact_hours": {
+    "start": "08:00",
+    "end": "18:00"
+  },
+  "reminder_policy": {
+    "minimum_gap_hours": 24,
+    "max_reminders_per_step": 2,
+    "remind_only_if_incomplete": true,
+    "escalate_when_deadline_at_risk": true
+  },
+  "links": {
+    "official_i9_instructions": "https://www.uscis.gov/i-9",
+    "secure_upload_portal": "SET_APPROVED_PORTAL_URL"
+  },
+  "channels": ["email"],
+  "require_human_review_for": [
+    "deadline_at_risk",
+    "candidate_requested_accommodation",
+    "ambiguous_compliance_question",
+    "adverse_action"
+  ]
+}
